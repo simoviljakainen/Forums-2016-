@@ -1,0 +1,20 @@
+
+/*stylesheet for printer, disabling elements' displays (except text and wanted elements)*/
+
+@media print{
+	nav{
+		display: none;
+	}
+	#bar {
+		display: none;
+	}
+	form{
+		display: none;
+	}
+	textarea, input{
+		display: none;
+	}
+	#ad{
+		display: none;
+	}
+}

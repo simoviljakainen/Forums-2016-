@@ -1,0 +1,262 @@
+*{
+	font-family: courier;
+	
+}
+/*if user uses media that has width over than 801px*/
+@media all and (min-width: 801px){
+	
+	#ad{
+		float: right;
+		margin-top: 5%;
+
+	}
+	#postform{
+		margin: 0px auto;
+		background-color: black;
+		min-width: 20%;
+		max-width: 35%;
+		margin-top: 2%;
+	}
+	#textA{
+		max-height: 100px;
+		max-width: 80%;
+	}
+	input[type=text]{
+		min-width: 50%;
+		max-width: 50%;
+	
+	}
+	
+	input[type=password]{
+		min-width: 50%;
+		max-width: 50%;
+	}
+	
+	.form{
+		min-width: 40%;
+		max-width: 40%;
+		height: 50%;
+		margin: 0px auto;
+		margin-top: 2%;
+		/*text-align: center;*/
+		background-color: black;
+		color: white;
+	
+	}
+}
+
+/*if user uses media that has width less than 801px*/
+@media all and (max-width: 800px){
+	
+	#textA{
+		max-height: 50px;
+		max-width: 80%;
+	}
+	#ad{
+		margin-top: 5%;
+		display: none;
+	}
+	
+	input[type=text]{
+		min-width: 20%;
+		max-width: 30%;
+	
+	}
+	
+	input[type=password]{
+		min-width: 20%;
+		max-width: 30%;
+	}
+	form{
+		
+		background-color: black;
+		min-width: 40%;
+		max-width: 60%;
+		margin: 0px auto;
+		margin-top: 2%;
+		color: white;
+	}
+	
+}
+
+.thread_list{
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	
+}
+
+
+table{
+	margin: 0px auto;
+}
+
+#chart{
+	margin: auto;
+	float: left;
+	max-width: 60%;
+	min-width: 50%
+	
+}
+#register{
+	min-width: 20%;
+	max-width: 40%;
+	margin: auto;
+	/*text-align: center;*/
+	background-color: black;
+	color: white;
+}
+.textbox{
+	margin: auto;
+	display: block;
+}
+
+#error{
+	
+	text-align: center;
+	
+}
+
+#posts, #threads{
+	
+	min-width: 20%;
+	max-width: 80%;
+	margin: 0px auto;
+	/*text-align: center;*/
+	background-color: #ADA7A7;
+	color: white;
+	
+	
+}
+
+
+.date{
+	float: right;
+	
+}
+.postrow{
+	background-color: black;
+	word-wrap: break-word;
+	
+}
+
+
+#message{
+	color: green;
+	text-align: center;
+
+}
+.fb-login-button{
+	text-align: center;
+	
+}
+
+
+ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+	
+}
+body{
+	margin: 0 0 50px;
+	padding: 25px;
+	background-color: #ADA7A7;
+}
+
+li a{
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	
+}
+
+
+
+/* mouse hovers on menu*/
+li:hover{
+	background-color: #252525;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+/*menu bar*/
+ul#bar li{
+	float: left;
+}
+
+/*dropdown menu*/
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #890404;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #890404;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.gamerows{
+	border-collapse: collapse;
+	background-color: #dee0e2;
+	
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.footer{
+	background-color: black;
+	color: white;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	vertical-align: bottom;
+	overflow: hidden;
+	
+}
+.footer p{
+	float: right;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
